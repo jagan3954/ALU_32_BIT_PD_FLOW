@@ -1,0 +1,25 @@
+read_libs /cadence/install/FOUNDRY-01/digital/90nm/dig/lib/slow.lib
+read_hdl alu.v
+
+elaborate alu_ifelseif
+
+read_sdc alu_sample_cons.sdc
+
+syn_generic
+report_area
+
+syn_map
+report_area
+
+syn_opt
+report_area 
+
+report_area > alu_area.txt
+report_power > alu_power.txt
+report_timing > alu_timing.txt
+
+write_hdl > alu_netlist.v
+write_sdc > alu_out_cons.sdc
+
+
+gui_show
