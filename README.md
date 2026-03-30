@@ -71,30 +71,38 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 • add slow.lib with a label Slow or any identifier of your own.
 
 ### Fig.1 Add slow Library set
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fdbf92c8-3d08-468e-b732-e4377e13259c" />
+
 
 • add fast.lib with a label Fast or any identifier of your own.
 
 ### Fig.2 Add fast Library set
+<img width="1919" height="1076" alt="Screenshot 2026-03-30 091718" src="https://github.com/user-attachments/assets/052ea980-f2c1-42ea-a757-ab3008e7476f" />
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
 
 ### Fig.3 Add RC corner
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 091800" src="https://github.com/user-attachments/assets/a6444e82-3a3a-461e-a29f-43dfc094b887" />
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 091851" src="https://github.com/user-attachments/assets/a8235b70-dfe1-4988-a3d3-4df8e50a00ca" />
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
 
 ### Fig.5 SDC Constraint file
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 092010" src="https://github.com/user-attachments/assets/31f3a3e6-dc21-4ab4-934d-2ebea8ae868d" />
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
+<img width="1910" height="1068" alt="Screenshot 2026-03-30 092058" src="https://github.com/user-attachments/assets/d39e1ce0-dc40-430e-952b-ff4edc766dfe" />
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 092122" src="https://github.com/user-attachments/assets/ad0477d6-5b54-45ec-8aa7-7474adebc82a" />
 
 • Once all the process is done, Click on “Save&Close” and save the script generated with any name of your choice. 
 
