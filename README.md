@@ -118,6 +118,8 @@ In the Import Design window click the save option to save the Default.globals fi
 
 ### Fig.8 Core area
 • The internal area of the box is called “Core Area”. 
+<img width="1919" height="979" alt="Untitled design (3)" src="https://github.com/user-attachments/assets/b1ccc2dc-f1be-435b-89aa-a5f42c9091ce" />
+
 
 • The horizontal lines running along the width of Core are “Standard Cell Rows”. Every alternate of them are marked indicating alternate VDD and VSS rows. 
 
@@ -136,6 +138,7 @@ Steps under Floorplan :
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
 
 ### Fig.9 Specify Floorplan 
+<img width="1919" height="1012" alt="Untitled design (4)" src="https://github.com/user-attachments/assets/232bf16f-40e2-44e4-a7f7-3d5b93798fc8" />
 
 • The Yellow patch on the Left Bottom are the group of “Unassigned pins” which are to be 
 placed along the IO Boundary along with the Standard Cells [Gates].
@@ -183,6 +186,7 @@ Moreover, the cells that would be placed inside the core area are expected to ha
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
 
 ### Fig. 10 Power plan 
+<img width="1919" height="1007" alt="Untitled design (5)" src="https://github.com/user-attachments/assets/c6e06f81-cc19-40bc-9e49-9de62aeae6d4" />
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
 
@@ -195,6 +199,7 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
 
 ### Fig. 11 Placement of standard Cells 
+<img width="1919" height="1007" alt="Untitled design (7)" src="https://github.com/user-attachments/assets/a6e921c2-213e-4d88-9d14-74d890b20414" />
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
 
